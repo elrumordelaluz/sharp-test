@@ -1,0 +1,20 @@
+{
+  "name": "sharp-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Lionel T <elrumordelaluz@hotmail.com> (https://elrumordelaluz.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "micro": "9.0.2",
+    "sharp": "0.18.4"
+  },
+  "scripts": {
+    "start": "micro"
+  },
+  "now": {
+    "alias": "https://sharp-test.now.sh/",
+    "files": [
+      "index.js"
+    ]
+  }
+}
